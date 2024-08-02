@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+           
+            <h1>Encriptador de Texto</h1>
+        </header>
+        <textarea id="input-text" placeholder="Ingrese el texto..."></textarea>
+        <div class="buttons">
+            <button onclick="encriptartexto()">Encriptar</button>
+            <button onclick="desencriptartexto()">Desencriptar</button>
+        </div>
+        <textarea id="output-text" placeholder="El resultado aparecerá aquí..." readonly></textarea>
+        <button onclick="copiar()">Copiar al portapapeles</button>
+    </div>
+    <footer class="footer">
+        <div class="footer__contenido">
+            <p class="footer__contenido_copy">&copy; 2024 App de Encriptación - HTML y JS | <a href="https://app.aluracursos.com/dashboard">Alura LATAM</a> | desarrollado por <a href="https://www.linkedin.com/in/martin-carrera-dev">Martin Carrera</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

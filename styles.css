@@ -42,6 +42,7 @@ body {
     padding: 0;
 }
 
+
 /*----- CONTAINER -----*/
 .container {
     display: flex;
@@ -54,6 +55,7 @@ body {
     max-height: 100%;
     overflow: auto; 
 }
+
 
 /*----- HEADER -----*/
 h1 {
@@ -72,6 +74,7 @@ h1 {
         transform: translateY(0);
     }
 }
+
 
 /*----- TEXTAREA -----*/
 textarea {
@@ -109,6 +112,7 @@ button:hover {
     background-color: var(--color);
     color: var(--principal-color-bg);
 }
+
 
 /*----- FOOTER -----*/
 footer {
